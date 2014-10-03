@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+      <div class="posts">
+        {{ range first 10 (where .Data.Pages "Section" "posts") }}
+        <div class="post">
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <p class="post-date">Published on {{ .Date.Format "2006-01-02 03:04" }}</p>
+          {{ .Content }}
+        </div>
+        {{ end }}
+      </div>
+{{ partial "footer.html" . }}
