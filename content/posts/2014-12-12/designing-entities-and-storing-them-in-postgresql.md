@@ -119,6 +119,9 @@ Since the **OrderRow** doesn't have an identifier, it will rely on the parent
 
 ### Repositories
 
+To fetch the **Orders** and **Products** we need to create a repository per
+entity.
+
     public class ProductsRepository
     {
         private readonly string _connectionString;
@@ -290,6 +293,11 @@ Since the **OrderRow** doesn't have an identifier, it will rely on the parent
 
     ordersRepository.Save(order);
 
+1. Connection string
+2. Create product
+3. Save product
+4. Create order
+5. Save order
 
 ### Reading data
 
@@ -316,6 +324,10 @@ Since the **OrderRow** doesn't have an identifier, it will rely on the parent
     }
 
     Console.WriteLine("Order {0} is worth {1} monies!", order.Id, total);
+
+1. Connection string
+2. Find order
+3. Calculate total order value
 
 ### Questions?
 
