@@ -3,7 +3,12 @@
         {{ range first 10 (where .Data.Pages "Section" "posts") }}
         <div class="post">
           <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-          <p class="post-date">Published on {{ .Date.Format "2006-01-02 03:04" }}</p>
+          <p class="post-date">Published on {{ .Date.Format "2006-01-02 15:04" }}</p>
+          {{ if .Params.tags }}
+          <p class="post-tags">
+            Tags: {{ join .Params.tags ", " }}
+          </p>
+          {{ end }}
           {{ .Content }}
         </div>
         {{ end }}
