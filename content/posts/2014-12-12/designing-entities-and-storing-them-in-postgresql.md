@@ -275,17 +275,17 @@ entity.
     // 2. Create product
     var product = new Product("SMS Sweden" + Guid.NewGuid().ToString().Substring(6), 100);
 
-    var rows = new[]
-    {
-        new OrderRow(product, 2)
-    };
-
     // 3. Save product
     var productsRepository = new ProductsRepository(connectionString);
 
     productsRepository.Save(product);
 
     // 4. Create order
+    var rows = new[]
+    {
+        new OrderRow(product, 2)
+    };
+
     var order = new Order(rows);
 
     // 5. Save order
@@ -293,11 +293,26 @@ entity.
 
     ordersRepository.Save(order);
 
-1. Connection string
-2. Create product
-3. Save product
-4. Create order
-5. Save order
+#### 1. Connection string
+
+Setup the connection string to your local PostgreSQL database.
+
+#### 2. Create product
+
+Create the new **Product** and initialize it with values.
+
+#### 3. Save product
+
+Create a new **ProductsRepository** instance to save the created **Product**.
+
+#### 4. Create order
+
+Create a new **OrderRow** with the **Product** and create an **Order** with the
+**OrderRow** we just created.
+
+#### 5. Save order
+
+Create a new **OrdersRepository** instance to save the created **Order**.
 
 ### Reading data
 
@@ -325,13 +340,22 @@ entity.
 
     Console.WriteLine("Order {0} is worth {1} monies!", order.Id, total);
 
-1. Connection string
-2. Find order
-3. Calculate total order value
+#### 1. Connection string
+
+Setup the connection string to your local PostgreSQL database.
+
+#### 2. Find order
+
+Create the **OrdersRepository** and find the order created earlier.
+
+#### 3. Calculate total order value
+
+Loop through the rows and find the **Product** for each row and calculate
+the price for each row and increase the total.
 
 ### Questions?
 
-If you have any questions, don't hesitate to send me a tweet at 
+If you have any questions, don't hesitate to send me a tweet at
 [@hagbarddenstore](https://twitter.com/hagbarddenstore).
 
 You can find the complete code example at
