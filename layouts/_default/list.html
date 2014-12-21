@@ -6,7 +6,7 @@
           <p class="post-date">Published on {{ .Date.Format "2006-01-02 15:04" }}</p>
           {{ if .Params.tags }}
           <p class="post-tags">
-            Tags: {{ join .Params.tags ", " }}
+            Tags: {{ delimit .Params.tags ", " }}
           </p>
           {{ end }}
         </div>
