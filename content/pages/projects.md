@@ -8,4 +8,7 @@ url = "projects"
 A list of my current and past public projects.
 
 1. [netcd](http://netcd.io/) - A .NET etcd client.
-2. [timereports](https://github.com/kumiko/timereports) - A service to manage timereports.
+2. [servicehost](http://github.com/bosbec/servicehost) - A library which is
+similiar to [Topshelf](http://topshelf-project.com) but with support for
+Mono/Linux and catered to our needs.
+3. timereports - A service to manage timereports. 
