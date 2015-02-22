@@ -6,6 +6,12 @@ slug = "run-a-webserver-in-any-folder-on-mac-os-x"
 tags = [ "mac os x", "python", "webserver", "tools", "tips and tricks", ]
 +++
 
+TL;DR;
+
+How to host static files from commandline on Mac OS X using Python.
+
+<!--more-->
+
 ### Problem:
 
 Hosting HTML files in a proper webserver on Mac OS X without having to install

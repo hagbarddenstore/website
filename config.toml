@@ -2,3 +2,7 @@ baseurl = "http://hagbarddenstore.se"
 languageCode = "en-us"
 title = "Hagbarddenstore"
 canonifyurls = false
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"

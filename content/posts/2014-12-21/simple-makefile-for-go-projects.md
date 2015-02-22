@@ -6,6 +6,12 @@ slug = "simple-makefile-for-go-projects"
 tags = [ "makefile", "golang", ]
 +++
 
+TL;DR;
+
+How to create a simple Makefile for building Go projects.
+
+<!--more-->
+
 So, I've recently started coding in Go and found that when moving projects
 between different computers, it was a hassle to remember which dependencies I
 needed to install, which commands did what, etc. So I created my own Makefile

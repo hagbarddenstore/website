@@ -3,8 +3,15 @@ date = "2014-12-12T14:21:00+02:00"
 draft = false
 title = "Designing entities and storing them in PostgreSQL"
 slug = "designing-entities-and-storing-them-in-postgresql"
-tags = [ ".net", "postgresql", "object-oriented design", "database design", "npgsql", "csharp", ]
+tags = [ "dotnet", "postgresql", "object oriented design", "database design", "npgsql", "csharp", ]
 +++
+
+TL;DR;
+
+How to design aggregate roots and entities with many-to-one relations in C#
+with Dapper and PostgreSQL.
+
+<!--more-->
 
 ### Prerequisites
 

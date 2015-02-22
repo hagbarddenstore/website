@@ -3,8 +3,14 @@ date = "2014-12-21T17:08:00+02:00"
 draft = false
 title = "Enabling CORS in Go HTTP applications"
 slug = "enabling-cors-in-go-http-applications"
-tags = [ "http", "golang", "gorilla-mux", ]
+tags = [ "http", "golang", "gorilla mux", ]
 +++
+
+TL;DR;
+
+How to enable CORS on a HTTP API hosted in a Go application.
+
+<!--more-->
 
 ### Problem
 

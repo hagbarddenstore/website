@@ -1,15 +1,24 @@
 {{ partial "header.html" . }}
-      <div class="posts">
+    <div class="posts">
         {{ range .Data.Pages }}
         <div class="post">
-          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-          <p class="post-date">Published on {{ .Date.Format "2006-01-02 15:04" }}</p>
-          {{ if .Params.tags }}
-          <p class="post-tags">
-            Tags: {{ delimit .Params.tags ", " }}
-          </p>
-          {{ end }}
-        </div>
-        {{ end }}
-      </div>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p class="post-date">Published on {{ .Date.Format "2006-01-02 15:04" }}</p>
+            {{ if .Params.categories }}
+            <p class="post-categories">
+                Categories: {{ delimit .Params.categories ", " }}
+            </p>
+            {{ end }}
+            {{ if .Params.tags }}
+            <p class="post-tags">
+                Tags: {{ delimit .Params.tags ", " }}
+            </p>
+            {{ end }}
+            {{ .Summary }}
+            {{ if .Truncated }}
+            <a href="{{ .Permalink }}">Read more...</a>
+            {{ end }}
+    </div>
+    {{ end }}
+</div>
 {{ partial "footer.html" . }}

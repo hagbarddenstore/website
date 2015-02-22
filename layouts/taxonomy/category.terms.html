@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<h2>{{ .Title }}</h2>
+{{ $data := .Data }}
+{{ range $key, $value := .Data.Terms.ByCount }}
+<h3><a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}">{{ $value.Name }}</a></h3>
+<ul>
+    {{ range $value.Pages.ByDate }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ partial "footer.html" . }}

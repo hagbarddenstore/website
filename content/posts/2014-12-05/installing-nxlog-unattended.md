@@ -3,7 +3,14 @@ date = "2014-12-05T11:18:00+02:00"
 draft = true
 title = "Installing NXLog unattended"
 slug = "installing-nxlog-unattended"
+tags = [ "nxlog", ]
 +++
+
+TL;DR;
+
+Install NXLog unattended on a Windows server via a PowerShell script.
+
+<!--more-->
 
 Today I created the task of installing nxlog on our servers to push logs to
 Loggly and have Loggly index the logs to enable developers access to the logs.
