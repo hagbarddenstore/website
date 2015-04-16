@@ -267,7 +267,7 @@ Looking forward to learn more about:
 
 A collection of books I've read during the past 5 years.
 
-#### Clean Code: A handbook of ahile software craftmanship
+#### Clean Code: A handbook of agile software craftmanship
 
 ISBN-13: 978-0132350884
 
