@@ -35,6 +35,8 @@ Introduction...
 
 What is Docker?
 
+What isn't Docker?
+
 Why use Docker?
 
 Basic Docker usage
