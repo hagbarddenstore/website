@@ -1,5 +1,5 @@
 +++
-date = ""
+date = "2015-11-11T14:33:00+01:00"
 draft = false
 title = "Ansible gotcha: Playbook sudo vs task sudo"
 slug = "ansible-gotcha-playbook-sudo-vs-task-sudo"
