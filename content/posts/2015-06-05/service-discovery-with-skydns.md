@@ -1,6 +1,6 @@
 +++
 date = "2015-06-05T10:57:00+02:00"
-draft = false
+draft = true
 title = "Service discovery with SkyDNS"
 slug = "service-discovery-with-skydns"
 tags = [ "aws", "coreos", "skydns", "dns", "infrastructure", "etcd" ]
