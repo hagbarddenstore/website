@@ -19,3 +19,4 @@ deploy:
     bucket:
       secure: "FYIWhHFE5RZ4Gtsc1F82YOOO5nJFd70t4ZYk8OL39yTWImu7Eo8+Ar96Pji6eX26jX0vzgHLIF3yyV/xdm4GwHHn1zZOz+XFVft+mASUeIlIqVWwyK1eC8dycWM2KcF2ysBBDebHZ4DlD1Xgp/WWbd9MaCWxOkUn3o5hDaaNUyY="
     local_dir: public
+    skip_cleanup: true
