@@ -1,0 +1,19 @@
+language: go
+go:
+  - 1.6
+
+install:
+  - go install github.com/spf13/hugo
+
+script:
+  - hugo
+
+deploy:
+  - provider: s3
+    access_key_id:
+      secure: "Nx+Wv3hRsxNs/5wemAXyq5W7clORERRWsq9tLCRpdNUVbU02JYOKbtYlBhaPyg0ICvTi1O69Hdzn5jgEKATwSJIiAAcRf+QiNoVE8wuZIzJjuhORRQ3fTEjid2MSotjRCo2hl89zryLRiOQYxs+jFkhqYWPQCfEFrWhJBnNQ//Y="
+    secret_access_key: 
+      secure: "C18EvUElEwF0RMGvIM2zZdcrit5EPVT/nrKGT/jNYKxn6NO8hsn+U3rc/kTFZcit5l3Sler1A0Vyk0f9gs3NPE5XyTA8x6v00twgASAWkatLZsOwCmcdJc9hCC99FQ6vreZDdRp6qi9LzBr34Cx5HbhsefOSn+jJf0Ec/HV6/rk="
+    bucket:
+      secure: "FYIWhHFE5RZ4Gtsc1F82YOOO5nJFd70t4ZYk8OL39yTWImu7Eo8+Ar96Pji6eX26jX0vzgHLIF3yyV/xdm4GwHHn1zZOz+XFVft+mASUeIlIqVWwyK1eC8dycWM2KcF2ysBBDebHZ4DlD1Xgp/WWbd9MaCWxOkUn3o5hDaaNUyY="
+    local_dir: public
