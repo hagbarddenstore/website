@@ -5,7 +5,7 @@ go:
 sudo: false
 
 install:
-  - go install github.com/spf13/hugo
+  - go get github.com/spf13/hugo
 
 script:
   - hugo
