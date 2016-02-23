@@ -18,5 +18,6 @@ deploy:
       secure: "C18EvUElEwF0RMGvIM2zZdcrit5EPVT/nrKGT/jNYKxn6NO8hsn+U3rc/kTFZcit5l3Sler1A0Vyk0f9gs3NPE5XyTA8x6v00twgASAWkatLZsOwCmcdJc9hCC99FQ6vreZDdRp6qi9LzBr34Cx5HbhsefOSn+jJf0Ec/HV6/rk="
     bucket:
       secure: "FYIWhHFE5RZ4Gtsc1F82YOOO5nJFd70t4ZYk8OL39yTWImu7Eo8+Ar96Pji6eX26jX0vzgHLIF3yyV/xdm4GwHHn1zZOz+XFVft+mASUeIlIqVWwyK1eC8dycWM2KcF2ysBBDebHZ4DlD1Xgp/WWbd9MaCWxOkUn3o5hDaaNUyY="
+    region: eu-west-1
     local_dir: public
     skip_cleanup: true
