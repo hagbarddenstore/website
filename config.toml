@@ -1,4 +1,4 @@
-baseurl = "http://hagbarddenstore.se"
+baseurl = "https://hagbarddenstore.se"
 languageCode = "en-us"
 title = "Hagbarddenstore"
 canonifyurls = false
