@@ -144,7 +144,7 @@ care of the existing server installing, which was handling e-mail, backup, etc.
 running on Windows Small Business Server. Something I had no experience in. 
 Shortly after this I decided to leave this company, since I was doing something
 I wasn't hired to do nor had any experience in. It's always fun to learn, but
-learning must take within the comfort zone if it's about stuff already in
+learning must be done within the comfort zone if it's about stuff already in
 production.
 
 So, back to the drawing board and time to find another job. Which roughly took
@@ -168,34 +168,44 @@ If you're interested in contacting me, please do so via
 A huge compilation of stuff I've used in past projects in alphabetical order:
 
 <ul class="list-inline">
+<li class="text-primary">Ansible</li>
 <li class="text-primary">ASP.NET MVC</li>
 <li class="text-primary">ASP.NET Webforms</li>
-<li class="text-primary">AWS Cloudformation</li>
 <li class="text-primary">Amazon AWS</li>
+<li class="text-primary">Amazon AWS Auto-Scaling Groups</li>
+<li class="text-primary">Amazon AWS Cloudformation</li>
 <li class="text-primary">Amazon AWS EC2</li>
+<li class="text-primary">Amazon AWS ELB</li>
 <li class="text-primary">Amazon AWS RDS</li>
 <li class="text-primary">Amazon AWS Route53</li>
 <li class="text-primary">Amazon AWS S3</li>
+<li class="text-primary">Bash</li>
 <li class="text-primary">C#</li>
-<li class="text-primary">C/C++, Ruby</li>
-<li class="text-primary">CQRS</li>
+<li class="text-primary">C/C++</li>
 <li class="text-primary">Caliburn.Micro</li>
 <li class="text-primary">Classic ASP</li>
+<li class="text-primary">Cloud init</li>
 <li class="text-primary">CodeIgniter</li>
+<li class="text-primary">CQRS</li>
 <li class="text-primary">CoreOS</li>
 <li class="text-primary">Django</li>
 <li class="text-primary">Docker</li>
 <li class="text-primary">Domain-Driven Design</li>
-<li class="text-primary">Ecplise</li>
+<li class="text-primary">Eclipse</li>
+<li class="text-primary">Elasticsearch</li>
 <li class="text-primary">Enterprise Service Bus</li>
 <li class="text-primary">Entity Framework</li>
 <li class="text-primary">Event-Driven Architecture</li>
 <li class="text-primary">Event-store</li>
 <li class="text-primary">Fedora</li>
+<li class="text-primary">Fleetd</li>
 <li class="text-primary">Git</li>
+<li class="text-primary">Gearmand</li>
 <li class="text-primary">Golang</li>
+<li class="text-primary">Graylog</li>
 <li class="text-primary">Hugo</li>
 <li class="text-primary">Java</li>
+<li class="text-primary">Javascript</li>
 <li class="text-primary">Jekyll</li>
 <li class="text-primary">Jetbrains IntelliJ</li>
 <li class="text-primary">Jetbrains PyCharm</li>
@@ -239,7 +249,9 @@ A huge compilation of stuff I've used in past projects in alphabetical order:
 <li class="text-primary">SQLite</li>
 <li class="text-primary">SuSE Linux</li>
 <li class="text-primary">Sublime Text 3</li>
+<li class="text-primary">Systemd</li>
 <li class="text-primary">Svn</li>
+<li class="text-primary">Teamcity</li>
 <li class="text-primary">Textile</li>
 <li class="text-primary">Topshelf</li>
 <li class="text-primary">Twitter Bootstrap</li>
@@ -247,8 +259,10 @@ A huge compilation of stuff I've used in past projects in alphabetical order:
 <li class="text-primary">VB.NET</li>
 <li class="text-primary">VBScript</li>
 <li class="text-primary">Vim</li>
+<li class="text-primary">WCF</li>
 <li class="text-primary">WPF</li>
 <li class="text-primary">Wordpress</li>
+<li class="text-primary">Zsh</li>
 </ul>
 
 Looking forward to learn more about:
@@ -265,7 +279,7 @@ Looking forward to learn more about:
 
 ### Books
 
-A collection of books I've read during the past 5 years.
+A collection of books I've read during the past years.
 
 #### Clean Code: A handbook of agile software craftmanship
 
