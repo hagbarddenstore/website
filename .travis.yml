@@ -7,8 +7,8 @@ sudo: false
 env:
   global:
     - secure: "YWj5Rea87tVLRT4VKNQCbPRIf6PTT4/oK7quGlIEsL58GWD3D8j5oUnco4WKa4qOhLJQOlk/s2FFjTmjECuFjPdYxIuAk7jHnwehoQqEfR56GIFtKjkbIOTEtb0GR9MqJb3ni88f4Wr5cdIs7WN6nhjWfpJgW2UIhiAgBqWERmA="
-    - secure: "d7xjoSMb5qwH5X7GxK8CrenCXKk71mO0mNIijFT9Um3T4GsyFP8ebXr39xNg1ZrfGwlcbJXP5xelxhSsFdokxV+vTOpZ4Y8VecnuFc/1HYYX+RBNn8RYeyrIuC50omi7rmNptL/svTZ2qKoBbqsra6MoSFnacTyaj7z/JNPR4sg="
-    - secure: "DJXnCDoLwcB+M50Z83YtBMZP31OhWL2USOqvCNUhB87gWo0K3YvTdkeM/JLdqqz9ij6QFPBU1I7Dv7dl0dASD6tYCWwsr5AmxW+IL71dHqoQH+ScbyzEgIIwA8F3zV/Z2PQC47CyteckiqzQF92EMatlj/KOMz4wdDPMBu2tNCk="
+    - secure: "NmSEwj0yx6P04EUhZoO6EK2hlRI4NwRlgigYicGWhry0tNTXNlVPNh8KBgOXmfUGtrSD7QH8Sddyu3bbRtBhxuO3nR+HpqTJ0F0qRWYrbJcYba4S6AXpH7dTl0GwnTcXA5G6nsbNSjMkJSklYStwiDMJj2slsRg/v063pHb1pE8="
+    - secure: "YgFCIZ+uHHbtGFZNz3ib/AedY8DQ/ca5olUvPZzrzRIFVoxCuy+fDfgQ7ZNWX+pbAzAFvB7ym8VWCa8/NuHxVpJbQj8/bRf7YVdeGkulsmvdoT2XyJf2EJrM8O4Hrn3Uf1tMjPDJ4i7ietmMDi8nE7ZiRC1yj1NdDUAtXD9GMOA="
 
 before_install:
   - pip install --user awscli
