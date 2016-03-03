@@ -33,4 +33,5 @@ deploy:
     skip_cleanup: true
 
 after_deploy:
+  - aws configure set preview.cloudfront true
   - aws cloudfront create-invalidation --distribution-id $CF_DISTRIBUTION_ID --paths /
