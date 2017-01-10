@@ -150,9 +150,21 @@ production.
 So, back to the drawing board and time to find another job. Which roughly took
 about 3 monts...
 
-### 2011 - 
+### 2011 - 2015
 
-...and then I started my current job as a developer at Bosbec AB.
+...and then I started working as a developer at Bosbec AB.
+
+After almost 4 years I decided it was time to do something new...
+
+### 2015 - 
+
+...so I talked to a guy on IRC. He mentioned that Detectify was looking for
+another developer to join their crew of three developers. He liked the fact that
+I had previous experience with Golang, so we talked for a while, then scheduled
+a meeting in Stockholm at their office for a couple of interviews and the rest
+is history.
+
+So, I'm currently working at Detectify as a Software architect/Sysop/Developer.
 
 __More to come...__
 
@@ -275,6 +287,14 @@ Looking forward to learn more about:
 <li class="text-primary">Apache Cassandra</li>
 <li class="text-primary">Jenkins</li>
 <li class="text-primary">Redis</li>
+<li class="text-primary">RethinkDB</li>
+<li class="text-primary">Chef</li>
+<li class="text-primary">Puppet</li>
+<li class="text-primary">ELK stack</li>
+<li class="text-primary">Azure</li>
+<li class="text-primary">Google Cloud</li>
+<li class="text-primary">Network infrastructure</li>
+<li class="text-primary">Monitoring of all kinds</li>
 </ul>
 
 ### Books
