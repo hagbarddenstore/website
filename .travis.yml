@@ -15,10 +15,12 @@ before_install:
   - export PATH=$PATH:$HOME/.local/bin
 
 install:
-  - go get github.com/spf13/hugo
+  - go get -u -v github.com/kardianos/govendor
+  - go get -u -v github.com/spf13/hugo
+  - cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
 
 script:
-  - hugo
+  - cd $TRAVIS_BUILD_DIR && hugo
 
 deploy:
   - provider: s3
