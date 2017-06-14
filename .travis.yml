@@ -14,11 +14,12 @@ env:
 install:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.22.1/hugo_0.22.1_Linux-64bit.deb
-  - dpkg -i hugo_0.22.1_Linux-64bit.deb
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.22.1/hugo_0.22.1_Linux-64bit.tar.gz
+  - tar -zxvf hugo_0.22.1_Linux-64bit.tar.gz
+  - pwd && ls
 
 script:
-  - cd $TRAVIS_BUILD_DIR && hugo
+  - cd $TRAVIS_BUILD_DIR && pwd && ./hugo
 
 deploy:
   - provider: s3
