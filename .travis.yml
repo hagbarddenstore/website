@@ -6,9 +6,9 @@ sudo: false
 
 env:
   global:
-    - secure: "YWj5Rea87tVLRT4VKNQCbPRIf6PTT4/oK7quGlIEsL58GWD3D8j5oUnco4WKa4qOhLJQOlk/s2FFjTmjECuFjPdYxIuAk7jHnwehoQqEfR56GIFtKjkbIOTEtb0GR9MqJb3ni88f4Wr5cdIs7WN6nhjWfpJgW2UIhiAgBqWERmA="
-    - secure: "NmSEwj0yx6P04EUhZoO6EK2hlRI4NwRlgigYicGWhry0tNTXNlVPNh8KBgOXmfUGtrSD7QH8Sddyu3bbRtBhxuO3nR+HpqTJ0F0qRWYrbJcYba4S6AXpH7dTl0GwnTcXA5G6nsbNSjMkJSklYStwiDMJj2slsRg/v063pHb1pE8="
-    - secure: "YgFCIZ+uHHbtGFZNz3ib/AedY8DQ/ca5olUvPZzrzRIFVoxCuy+fDfgQ7ZNWX+pbAzAFvB7ym8VWCa8/NuHxVpJbQj8/bRf7YVdeGkulsmvdoT2XyJf2EJrM8O4Hrn3Uf1tMjPDJ4i7ietmMDi8nE7ZiRC1yj1NdDUAtXD9GMOA="
+    - secure: "jg+Y2vjCBiAioE4wEo/7GYSDORK4y8hzD48wVAptlKsKgHHvpu9e/TMYYeSMsGYrRUxgYFTF5c61rOL117I8TymTRSVNKSt0ovuDqK8wxiU9Qfk+FY68GZW+tB+6Q7GVAepCGxudtXJL8+1aa7TGSKUlvIN4d9lxeDcezmMRdfk="
+    - secure: "Q+kebCHaG2Jrlt8U09ElGHCdElTaJ666rfIY57NU+2JXwNPE+cNDz+W/gaxSgDqbfQ/kk6zC29gtwRp0iNj+HzeD3zcRMsZq8a2ZtlDArqX43S2oCjOaMKK5uZwpeJK96zPrTCllsZmKWiXcKlOvadbjNuFayVLQXKei9jQDcy0="
+    - secure: "brTDuD+mlHQwiUwEDqtqnnCl9qA0M0O3+fWcl9LVtRg6fIPPz+/rdEC7BS7o7pYZR2iTycpvLHljqXUNbQ3l9hq65fANvpNY0XYBCxouOjYj7h6Tuvk8QjvHKu5PFh58098fXMy8w19tFkuqqXI6h9HqSrK5AJK2SF8wkMaMYVY="
 
 before_install:
   - pip install --user awscli
@@ -23,11 +23,11 @@ script:
 deploy:
   - provider: s3
     access_key_id:
-      secure: "Nx+Wv3hRsxNs/5wemAXyq5W7clORERRWsq9tLCRpdNUVbU02JYOKbtYlBhaPyg0ICvTi1O69Hdzn5jgEKATwSJIiAAcRf+QiNoVE8wuZIzJjuhORRQ3fTEjid2MSotjRCo2hl89zryLRiOQYxs+jFkhqYWPQCfEFrWhJBnNQ//Y="
+      secure: "jYoA38NC3rELCB8u9wn8fg3U4BBZKBXhpKzyN2ub+1IUlrF9bpXB3eQihWhCc/uOLyo44e0e+uo6vZB0vvvyR5vJSJO2TYe7jbraoH+G3XShSv4AvLwkXgosr78fl28BxFZSICMHqCLBj5SLSM2l8BLrugZajP42ZxSswF6xquY="
     secret_access_key: 
-      secure: "C18EvUElEwF0RMGvIM2zZdcrit5EPVT/nrKGT/jNYKxn6NO8hsn+U3rc/kTFZcit5l3Sler1A0Vyk0f9gs3NPE5XyTA8x6v00twgASAWkatLZsOwCmcdJc9hCC99FQ6vreZDdRp6qi9LzBr34Cx5HbhsefOSn+jJf0Ec/HV6/rk="
+      secure: "hwgoFCyNrpuDvqvWUPjG8MWGzcb6CNUQtLf3RIpTBo+gCR46+ujMEthtrXqzP/XgYHujPwNSWLXf1UP0pTna1w/4wfgtxP6BzfJj/Ea0TPqJ6XyC8IckPW+FoRjZB9oV3ku+L+kcPO6ezUqUvOcbok0+xNqQz+fPOGlRH1OcVzY="
     bucket:
-      secure: "FYIWhHFE5RZ4Gtsc1F82YOOO5nJFd70t4ZYk8OL39yTWImu7Eo8+Ar96Pji6eX26jX0vzgHLIF3yyV/xdm4GwHHn1zZOz+XFVft+mASUeIlIqVWwyK1eC8dycWM2KcF2ysBBDebHZ4DlD1Xgp/WWbd9MaCWxOkUn3o5hDaaNUyY="
+      secure: "O3faLw2VhbJCE+QgzCz33C74JYCJHtbqA/KbIOLLKsJsvvvsSkN77HUU21BZmIMpD+DlLRBNHumjRZwT3JP7iVKdB1dxGvTnF271kAP+WV7PEzR9dzWpq1WZuVKkyEZDAoH/hUF7BtYumG8nopfXGyuY3NWkVe22bW4gM9P45mQ="
     region: eu-west-1
     local_dir: public
     skip_cleanup: true
