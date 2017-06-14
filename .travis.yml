@@ -15,7 +15,7 @@ install:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
   - wget https://github.com/gohugoio/hugo/releases/download/v0.22.1/hugo_0.22.1_Linux-64bit.deb
-  - sudo dpkg -i hugo_0.22.1_Linux-64bit.deb
+  - dpkg -i hugo_0.22.1_Linux-64bit.deb
 
 script:
   - cd $TRAVIS_BUILD_DIR && hugo
