@@ -3,6 +3,7 @@ go:
   - master
 
 sudo: false
+dist: trusty
 
 env:
   global:
@@ -10,14 +11,11 @@ env:
     - secure: "Q+kebCHaG2Jrlt8U09ElGHCdElTaJ666rfIY57NU+2JXwNPE+cNDz+W/gaxSgDqbfQ/kk6zC29gtwRp0iNj+HzeD3zcRMsZq8a2ZtlDArqX43S2oCjOaMKK5uZwpeJK96zPrTCllsZmKWiXcKlOvadbjNuFayVLQXKei9jQDcy0="
     - secure: "brTDuD+mlHQwiUwEDqtqnnCl9qA0M0O3+fWcl9LVtRg6fIPPz+/rdEC7BS7o7pYZR2iTycpvLHljqXUNbQ3l9hq65fANvpNY0XYBCxouOjYj7h6Tuvk8QjvHKu5PFh58098fXMy8w19tFkuqqXI6h9HqSrK5AJK2SF8wkMaMYVY="
 
-before_install:
+install:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
-
-install:
-  - go get -u -v github.com/kardianos/govendor
-  - go get -u -v github.com/spf13/hugo
-  - cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.22.1/hugo_0.22.1_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.22.1_Linux-64bit.deb
 
 script:
   - cd $TRAVIS_BUILD_DIR && hugo
@@ -37,3 +35,4 @@ deploy:
 after_deploy:
   - aws configure set preview.cloudfront true
   - aws cloudfront create-invalidation --distribution-id $CF_DISTRIBUTION_ID --paths /
+
