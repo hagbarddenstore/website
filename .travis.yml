@@ -14,8 +14,8 @@ env:
 install:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
-  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.22.1/hugo_0.22.1_Linux-64bit.tar.gz
-  - tar -zxvf hugo_0.22.1_Linux-64bit.tar.gz
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.34/hugo_0.34_Linux-64bit.tar.gz
+  - tar -zxvf hugo_0.34_Linux-64bit.tar.gz
 
 script:
   - cd $TRAVIS_BUILD_DIR && ./hugo
